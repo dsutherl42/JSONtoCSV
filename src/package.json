@@ -1,0 +1,11 @@
+{
+  "name" : "JSONtoCSV",
+  "version" : "1.0.0",
+  "keywords" : [ "util", "functional", "server", "client", "browser" ],
+  "author" : "dmsuther",
+  "contributors" : [ ],
+  "dependencies" : {
+    "json2csv" : "3.2.0"
+  },
+  "main" : "./main.js"
+}
