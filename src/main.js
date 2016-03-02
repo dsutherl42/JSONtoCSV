@@ -4,7 +4,7 @@ var path = require('path');
 var zlib = require('zlib');
 var dir = process.argv[2];
 if(dir == null) {
-  dir = "../Match Data";
+  dir = "../from_tablets";
 }
 var output_path = process.argv[3];
 if (output_path == null){
@@ -37,9 +37,12 @@ for (var i=0; i<files.length; ++i) {
   if (file_path.match("\.json$")) { 
     // Read the file contents
     var file_contents = fs.readFileSync(file_path,"utf8");
-    
-    // Add the file contents to our contents array
-    match_data.push(JSON.parse(file_contents));
+    try {
+      // Add the file contents to our contents array
+      match_data.push(JSON.parse(file_contents));
+    } catch(e) {
+      console.log("File " + file_path + " is corrupt, skipping...");  
+    } 
   }
 }
 
