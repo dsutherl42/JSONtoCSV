@@ -1,0 +1,107 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "LowBar",
+   "allianceColor" : "blue",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "3",
+   "actions" : [
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "autonomous",
+            "defense" : "1",
+            "time" : 1500,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Left",
+            "location" : "batter",
+            "timestamp" : 1456889592000,
+            "phase" : "autonomous",
+            "goalHeight" : "Low",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1500,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highRight",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1000,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "climb" : {
+            "partOfBatter" : "center",
+            "phase" : "teleop",
+            "successfail" : "success"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "SallyPort",
+   "defense3Position" : "Ramparts",
+   "scouterName" : "Dave",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "22",
+   "scouterNotes" : "These are notes!"
+}

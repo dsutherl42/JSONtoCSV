@@ -1,0 +1,45 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "LowBar",
+   "allianceColor" : "blue",
+   "defense5Position" : "RoughTerrain",
+   "matchNumber" : "130",
+   "actions" : [
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Ramparts",
+   "scouterName" : "Dave",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "28",
+   "scouterNotes" : "These are notes!"
+}

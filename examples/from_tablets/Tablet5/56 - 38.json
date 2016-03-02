@@ -1,0 +1,69 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Drawbridge",
+   "allianceColor" : "blue",
+   "defense5Position" : "RoughTerrain",
+   "matchNumber" : "38",
+   "actions" : [
+      {
+         "Defend" : {
+            "goal" : "lowLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 2200,
+            "successfail" : "success"
+         }
+      },
+      {
+         "climb" : {
+            "partOfBatter" : "center",
+            "phase" : "teleop",
+            "successfail" : "success"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Sean",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "56",
+   "scouterNotes" : ""
+}

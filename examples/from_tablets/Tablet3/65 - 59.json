@@ -1,0 +1,224 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Cheval",
+   "allianceColor" : "red",
+   "defense5Position" : "RoughTerrain",
+   "matchNumber" : "59",
+   "actions" : [
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "true",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1100,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1400,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1200,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1500,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1800,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2200,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2700,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2800,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2600,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 3100,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 4700,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "2",
+            "time" : 7900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1100,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "2",
+            "time" : 7400,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1500,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1000,
+            "successfail" : "success"
+         }
+      },
+      {
+         "climb" : {
+            "partOfBatter" : null,
+            "phase" : "teleop",
+            "successfail" : "fail"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Chris",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "65",
+   "scouterNotes" : ""
+}

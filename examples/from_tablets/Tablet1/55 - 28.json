@@ -1,0 +1,76 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Portcullis",
+   "allianceColor" : "red",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "28",
+   "actions" : [
+      {
+         "Defend" : {
+            "goal" : "highRight",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1700,
+            "successfail" : "success"
+         }
+      },
+      {
+         "challenge" : {
+            "partOfBatter" : null,
+            "phase" : "teleop",
+            "successfail" : "fail"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Kobe",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "55",
+   "scouterNotes" : "These are notes!"
+}

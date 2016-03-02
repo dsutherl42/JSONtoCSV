@@ -1,0 +1,229 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Ramparts",
+   "allianceColor" : "blue",
+   "defense5Position" : "RoughTerrain",
+   "matchNumber" : "81",
+   "actions" : [
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 2800,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "batter",
+            "timestamp" : 1456889870000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 3800,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 2500,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "batter",
+            "timestamp" : 1456889872000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "miss"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 3900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 2600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "batter",
+            "timestamp" : 1456889872000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 3700,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 4400,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "batter",
+            "timestamp" : 1456889872000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 4100,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 3200,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "outerworks",
+            "timestamp" : 1456889872000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 2600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "3",
+            "time" : 4600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "challenge" : {
+            "partOfBatter" : "center",
+            "phase" : "teleop",
+            "successfail" : "success"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "SallyPort",
+   "defense3Position" : "Ramparts",
+   "scouterName" : "Micah",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "23",
+   "scouterNotes" : "These are notes!"
+}

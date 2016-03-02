@@ -1,0 +1,55 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "RockWall",
+   "allianceColor" : "red",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "39",
+   "actions" : [
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 3600,
+            "successfail" : "success"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Chris",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "59",
+   "scouterNotes" : "These are notes!"
+}

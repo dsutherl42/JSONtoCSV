@@ -1,0 +1,84 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "LowBar",
+   "allianceColor" : "red",
+   "defense5Position" : "RoughTerrain",
+   "matchNumber" : "26",
+   "actions" : [
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2200,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2600,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2300,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 3000,
+            "successfail" : "success"
+         }
+      },
+      {
+         "challenge" : {
+            "partOfBatter" : "right",
+            "phase" : "teleop",
+            "successfail" : "success"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "SallyPort",
+   "defense3Position" : "Moat",
+   "scouterName" : "William",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "48",
+   "scouterNotes" : "These are notes!"
+}

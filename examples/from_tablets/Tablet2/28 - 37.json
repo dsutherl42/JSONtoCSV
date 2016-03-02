@@ -1,0 +1,59 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "LowBar",
+   "allianceColor" : "red",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "37",
+   "actions" : [
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "William",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "28",
+   "scouterNotes" : ""
+}

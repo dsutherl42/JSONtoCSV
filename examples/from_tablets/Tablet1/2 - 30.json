@@ -1,0 +1,52 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "RoughTerrain",
+   "allianceColor" : "red",
+   "defense5Position" : "RoughTerrain",
+   "matchNumber" : "30",
+   "actions" : [
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowLeft",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Kobe",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "2",
+   "scouterNotes" : "These are notes!"
+}

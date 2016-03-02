@@ -1,0 +1,235 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Moat",
+   "allianceColor" : "red",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "62",
+   "actions" : [
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2500,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "outerworks",
+            "timestamp" : 1456889802000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2700,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2500,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "outerworks",
+            "timestamp" : 1456889803000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2800,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2300,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "batter",
+            "timestamp" : 1456889803000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2300,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2000,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "batter",
+            "timestamp" : 1456889803000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "miss"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Shoot" : {
+            "goal" : "Center",
+            "location" : "outerworks",
+            "timestamp" : 1456889803000,
+            "phase" : "teleop",
+            "goalHeight" : "High",
+            "defender" : "false",
+            "scoremiss" : "score"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2600,
+            "successfail" : "success"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "enemycourtyard",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "5",
+            "time" : 2000,
+            "successfail" : "success"
+         }
+      },
+      {
+         "challenge" : {
+            "partOfBatter" : null,
+            "phase" : "teleop",
+            "successfail" : "fail"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Kobe",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "23",
+   "scouterNotes" : "These are notes!"
+}

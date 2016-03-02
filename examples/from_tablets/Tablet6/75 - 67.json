@@ -1,0 +1,74 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Moat",
+   "allianceColor" : "blue",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "67",
+   "actions" : [
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1100,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 2000,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1500,
+            "successfail" : "fail"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1800,
+            "successfail" : "success"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "cross",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1400,
+            "successfail" : "success"
+         }
+      },
+      {
+         "challenge" : {
+            "partOfBatter" : null,
+            "phase" : "teleop",
+            "successfail" : "fail"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "Dave",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "75",
+   "scouterNotes" : ""
+}

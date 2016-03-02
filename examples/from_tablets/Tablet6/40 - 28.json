@@ -1,0 +1,115 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Cheval",
+   "allianceColor" : "blue",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "28",
+   "actions" : [
+      {
+         "dropball" : {
+            "location" : "neutralzone",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "friendlycourtyard",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "neutralzone",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "neutralzone",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "enemycourtyard",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "enemycourtyard",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "neutralzone",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      },
+      {
+         "dropball" : {
+            "location" : "neutralzone",
+            "fumbleeject" : "fumble"
+         }
+      },
+      {
+         "loadBall" : {
+            "location" : "neutralzone",
+            "phase" : "teleop",
+            "floorair" : "floor",
+            "successfail" : "success"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "SallyPort",
+   "defense3Position" : "Ramparts",
+   "scouterName" : "Dave",
+   "defense2Position" : "Cheval",
+   "teamNumber" : "40",
+   "scouterNotes" : "These are notes!"
+}

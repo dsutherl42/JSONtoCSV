@@ -1,0 +1,68 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "Portcullis",
+   "allianceColor" : "red",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "9",
+   "actions" : [
+      {
+         "Reach" : {
+            "phase" : "autonomous",
+            "defense" : "LowBar"
+         }
+      },
+      {
+         "crossdefense" : {
+            "direction" : "back",
+            "helped" : "false",
+            "phase" : "teleop",
+            "defense" : "1",
+            "time" : 1900,
+            "successfail" : "success"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "lowRight",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highCenter",
+            "phase" : "teleop",
+            "blockscore" : "score"
+         }
+      },
+      {
+         "Defend" : {
+            "goal" : "highLeft",
+            "phase" : "teleop",
+            "blockscore" : "block"
+         }
+      }
+   ],
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "Drawbridge",
+   "defense3Position" : "Moat",
+   "scouterName" : "William",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "55",
+   "scouterNotes" : "These are notes!"
+}

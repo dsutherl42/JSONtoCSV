@@ -1,0 +1,15 @@
+{
+   "defense0Position" : "SpyBot",
+   "startDefense" : "SallyPort",
+   "allianceColor" : "blue",
+   "defense5Position" : "RockWall",
+   "matchNumber" : "107",
+   "defense1Position" : "LowBar",
+   "withBall" : "true",
+   "defense4Position" : "SallyPort",
+   "defense3Position" : "Ramparts",
+   "scouterName" : "Dave",
+   "defense2Position" : "Portcullis",
+   "teamNumber" : "42",
+   "scouterNotes" : "These are notes!"
+}
